@@ -1,0 +1,154 @@
+/* The Puritan font is Ben Weiner's http://openfontlibrary.fontly.org/people/benweiner */
+@font-face {
+  font-family: Puritan;
+  src: url("/file/fonts/benweiner_-_Puritan_Regular.otf") format("opentype")
+  }
+
+@font-face {
+  font-family: Puritan;
+  src: url("/file/fonts/benweiner_-_Puritan_Bold.otf") format("opentype");
+  font-weight: bold;
+  }
+
+@font-face {
+  font-family: Puritan;
+  src: url("/file/fonts/benweiner_-_Puritan_Bold_Italic.otf") format("opentype");
+  font-weight: bold;
+  font-style: italic;
+  }
+
+@font-face {
+  font-family: Puritan;
+  src: url("/file/fonts/benweiner_-_Puritan_Italic.otf") format("opentype");
+  font-style: italic;
+  }
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.9em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Puritan, Helvetica, Arial, sans-serif;
+}
+
+#footer {
+  /* visibility: hidden; */
+  margin-top: 5px;
+}
+
+
+.slide {
+  border: none;
+}
+
+.slide p {
+  font-size: 2.5em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+h1 {
+  color: red;
+  font-size: 4em;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+.full-page-image img:first-child {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  /* Set the height dynamically depending on the image's current width, keeping the aspect ratio */
+  height: auto;
+}
+
+.full-page-image img.cc {
+  width: 1.2em;
+  height: 1.2em;
+  vertical-align: middle;
+}
+
+
+.full-page-image p {
+  margin: 0 0 0 0;
+}
+
+.full-page-image p:not(:first-child),
+.full-page-image h1,
+.full-page-image h2,
+.full-page-image h3 {
+  z-index: 1;
+  background-image: url('white.png');
+  background-position: top left;
+}
+
+
+.full-page-image p:not(:first-child) {
+  position: relative;
+  opacity: .6;
+  top: -4em;
+  padding: 0.4em 0.9em 0.4em 0.9em;
+  color: dark-grey;
+  font-size: 1em;
+  float: right;
+}
+
+.center p.cc {
+  position: relative;
+  opacity: .6;
+  top: -4em;
+  padding: 0.4em 0.9em 0.4em 0.9em;
+  color: dark-grey;
+  font-size: 1em;
+  float: right;
+}
+
+.center img.cc {
+  width: 1.2em;
+  height: 1.2em;
+  vertical-align: middle;
+}
+
+.full-page-image h1 {
+  position: absolute;
+  top: 1em;
+  left: 0px;
+  width: 100%;
+  padding: 0.3em 0 0.2em 0;
+  text-transform: uppercase;
+}
+
+.full-page-image h2 {
+  position: absolute;
+  top: 4em;
+  left: 0px;
+  width: 100%;
+  padding: 0.1em 0 0.3em 0;
+}
+
+.full-page-image h3 {
+  position: absolute;
+  top: 6.5em;
+  left: 0px;
+  width: 100%;
+  padding: 0.1em 0 0.3em 0;
+  color: #777;
+}
+
+.credits {
+  font-size: 0.8em;
+}
+
+.credits p:last-child {
+  float: right;
+}
+
+pre {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
