@@ -88,11 +88,11 @@ Image de <span xmlns:cc="http://creativecommons.org/ns#" about="http://www.flick
 
 !SLIDE
 
-# Moins on a de fichier de configuration #
+# Moins on a de fichiers de configuration #
 
 !SLIDE
 
-# Moins on a de fichier à éditer #
+# Moins on a de fichiers à éditer #
 
 !SLIDE
 
@@ -100,12 +100,12 @@ Image de <span xmlns:cc="http://creativecommons.org/ns#" about="http://www.flick
 
 !SLIDE
 
-# Arrêtons de copier coller notre code #
+# Arrêtons de copier/coller notre code #
 # à d'autre endroit #
 
 !SLIDE
 
-# Un seul langage a apprendre #
+# Un seul langage à apprendre #
 
 !SLIDE
 
@@ -144,7 +144,7 @@ Image de <span xmlns:cc="http://creativecommons.org/ns#" about="http://www.flick
 
 !SLIDE
 
-# Les contolleurs ( Controllers ) #
+# Les controlleurs ( Controllers ) #
 
 !SLIDE
 
@@ -152,7 +152,9 @@ Image de <span xmlns:cc="http://creativecommons.org/ns#" about="http://www.flick
 
 !SLIDE
 
-# Une URL == Une action #
+# Une URL #
+# == #
+# Une action #
 
 !SLIDE
 
@@ -202,7 +204,7 @@ Image de <span xmlns:cc="http://creativecommons.org/ns#" about="http://www.flick
 
 !SLIDE
 
-# Une aide a la création #
+# Une aide à la création #
 
 !SLIDE commandline incremental
 
@@ -267,4 +269,36 @@ Image de <span xmlns:cc="http://creativecommons.org/ns#" about="http://www.flick
       create  script/plugin
       create  script/performance/benchmarker
 
+!SLIDE commandline incremental
+
+    $ ruby script/generate scaffold user name:string email:string
+        exists  app/models/
+        exists  app/controllers/
+        exists  app/helpers/
+        create  app/views/users
+        exists  app/views/layouts/
+        exists  test/functional/
+        exists  test/unit/
+        create  test/unit/helpers/
+        exists  public/stylesheets/
+        create  app/views/users/index.html.erb
+        create  app/views/users/show.html.erb
+        create  app/views/users/new.html.erb
+        create  app/views/users/edit.html.erb
+        create  app/views/layouts/users.html.erb
+        create  public/stylesheets/scaffold.css
+        create  app/controllers/users_controller.rb
+        create  test/functional/users_controller_test.rb
+        create  app/helpers/users_helper.rb
+        create  test/unit/helpers/users_helper_test.rb
+         route  map.resources :users
+    dependency  model
+        exists    app/models/
+        exists    test/unit/
+        exists    test/fixtures/
+        create    app/models/user.rb
+        create    test/unit/user_test.rb
+        create    test/fixtures/users.yml
+        create    db/migrate
+        create    db/migrate/20100323142931_create_users.rb
 

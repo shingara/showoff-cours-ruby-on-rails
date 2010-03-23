@@ -146,9 +146,3 @@ h2 {
 .credits p:last-child {
   float: right;
 }
-
-pre {
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
