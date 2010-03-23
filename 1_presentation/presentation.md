@@ -27,7 +27,7 @@ Image de <span xmlns:cc="http://creativecommons.org/ns#" about="http://www.flick
 
 !SLIDE center
 
-# De le société 37 Signals #
+# De la société 37 Signals #
 
 ![37_signal](37signals.png "37 Signals")
 
@@ -199,3 +199,72 @@ Image de <span xmlns:cc="http://creativecommons.org/ns#" about="http://www.flick
 !SLIDE
 
 # route.rb #
+
+!SLIDE
+
+# Une aide a la création #
+
+!SLIDE commandline incremental
+
+    $ rails my_app
+      create
+      create  app/controllers
+      create  app/helpers
+      create  app/models
+      create  app/views/layouts
+      create  config/environments
+      create  config/initializers
+      create  config/locales
+      create  db
+      create  doc
+      create  lib
+      create  lib/tasks
+      create  log
+      create  public/images
+      create  public/javascripts
+      create  public/stylesheets
+      create  script/performance
+      create  test/fixtures
+      create  test/functional
+      create  test/integration
+      create  test/performance
+      create  test/unit
+      create  vendor
+      create  vendor/plugins
+      create  tmp/sessions
+      create  tmp/sockets
+      create  tmp/cache
+      create  tmp/pids
+
+!SLIDE commandline
+
+    $ ...
+      create  Rakefile
+      create  README
+      create  app/controllers/application_controller.rb
+      create  app/helpers/application_helper.rb
+      create  config/database.yml
+      create  config/routes.rb
+      create  config/locales/en.yml
+      create  db/seeds.rb
+      create  config/initializers/backtrace_silencers.rb
+      create  config/initializers/inflections.rb
+      create  config/initializers/mime_types.rb
+      create  config/initializers/new_rails_defaults.rb
+      create  config/initializers/session_store.rb
+      create  config/environment.rb
+      create  config/boot.rb
+      create  config/environments/production.rb
+      create  config/environments/development.rb
+      create  config/environments/test.rb
+      create  script/about
+      create  script/console
+      create  script/dbconsole
+      create  script/destroy
+      create  script/generate
+      create  script/runner
+      create  script/server
+      create  script/plugin
+      create  script/performance/benchmarker
+
+
