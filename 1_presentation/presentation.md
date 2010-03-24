@@ -158,6 +158,30 @@ Image de <span xmlns:cc="http://creativecommons.org/ns#" about="http://www.flick
 
 !SLIDE
 
+# La documentation #
+
+!SLIDE
+
+# Le site officiel #
+## [http://rubyonrails.org](http://rubyonrails.org)
+
+!SLIDE
+
+# L'API doc #
+## [http://api.rubyonrails.org](http://api.rubyonrails.org)
+
+!SLIDE
+
+# Les guides #
+## [http://guides.rubyonrails.org](http://guides.rubyonrails.org) ##
+
+!SLIDE
+
+# Le wiki #
+## [http://wiki.rubyonrails.org](http://wiki.rubyonrails.org) ##
+
+!SLIDE
+
 # Un hierachie de fichier défini #
 
 !SLIDE
