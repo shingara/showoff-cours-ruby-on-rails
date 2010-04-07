@@ -26,3 +26,8 @@
     # SELECT * FROM users where 'state' = 'draft'
     Post.draft.limit(3)
     # SELECT * FROM users where 'state' = 'draft' LIMIT 3
+
+!SLIDE
+
+# Le guide
+## [http://guides.rubyonrails.org/active_record_querying.html](http://guides.rubyonrails.org/active_record_querying.html)

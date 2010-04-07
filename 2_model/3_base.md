@@ -85,3 +85,24 @@
 
     User.first(:conditions => {:login => 'shingara'})
     # => #<User id: 1, login: "shingara"
+
+!SLIDE
+
+# STI ( Single Table Inheritance )
+
+!SLIDE
+
+# Necessite une champs « type » qui inclus la chaine de caractère correspondant à la classe correspondance
+
+!SLIDE
+
+    @@@ ruby
+    class User < ActiveRecord::Base
+    end
+
+    class Man < User
+    end
+
+    class Woman < User
+    end
+

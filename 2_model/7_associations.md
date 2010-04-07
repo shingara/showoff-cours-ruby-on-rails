@@ -229,3 +229,7 @@
 
     @asset.attachable = @post
 
+!SLIDE
+
+# Le guide
+## [http://guides.rubyonrails.org/association_basics.html](http://guides.rubyonrails.org/association_basics.html)
