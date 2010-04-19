@@ -123,12 +123,12 @@
 
 !SLIDE
 
-# Eviter de se marcher sur les pieds en modifiant la base de donnée #
+# Eviter de se marcher sur les pieds en modifiant la base de données #
 
 !SLIDE center
 
 # Les adapters #
-## Active Record supporte plusieurs système de base de donnée dont les plus communes ##
+## Active Record supporte plusieurs système de base de données dont les plus communes ##
  * sqlite
  * mysql
  * postgresql
@@ -137,14 +137,14 @@
 
 !SLIDE
 
-# Création des base de donnée #
+# Création des base de données #
 
 ## rake db:create ##
 ## rake db:create:all ##
 
 !SLIDE
 
-# Création du schéma de la base de donnée ? #
+# Création du schéma de la base de données ? #
 
 !SLIDE
 

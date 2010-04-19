@@ -26,11 +26,11 @@
 !SLIDE
 
 #tasks
-## au plusieurs
+## au pluriel
 
 !SLIDE
 
-## Pas de modification dans la base de donnée. Aucun champs supplémentaire.
+## Pas de modification dans la base de données. Aucun champ supplémentaire.
 
 !SLIDE
 
@@ -46,7 +46,7 @@
 
 !SLIDE
 
-## Au niveau de la base de donnée,
+## Au niveau de la base de données,
 ## ajout du champs « user_id » (au singulier) qui est
 ## la clé étrangère de « User »
 

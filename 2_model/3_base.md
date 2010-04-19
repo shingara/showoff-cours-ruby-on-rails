@@ -29,7 +29,7 @@
 !SLIDE
 
 # #create #
-## Créer directement l'objet en Base de donnée ##
+## Créer directement l'objet en Base de données ##
     @@@ ruby
     user = User.create(:login => 'shingara)
     # => #<User id: 1, login: "shingara", email: nil, created_at: "2010-03-24 23:28:34", updated_at: "2010-03-24 23:28:34">

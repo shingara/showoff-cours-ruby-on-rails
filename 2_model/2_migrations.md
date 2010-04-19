@@ -130,7 +130,7 @@
 
 !SLIDE
 
-# enrobe la migration dans une transaction si la base de donnée le permet #
+# enrobe la migration dans une transaction si la base de données le permet #
 
 !SLIDE
 
@@ -146,7 +146,7 @@
 
 !SLIDE commandline incremental
 
-# Mais plein d'autres tâches pour manipuler notre base de donnée #
+# Mais plein d'autres tâches pour manipuler notre base de données #
 
     $ rake -T db
     (in /tmp/tmp)
