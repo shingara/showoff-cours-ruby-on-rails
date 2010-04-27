@@ -13,7 +13,8 @@
 
 !SLIDE
 
-## défini le controller/action de /
+## défini le controller/action de
+## /
 
     @@@ ruby
     map.root :controller  => 'articles', :action => 'index'
@@ -25,7 +26,9 @@
 
 !SLIDE
 
-## fait matcher l'url /archives au controller Article et l'action archives
+## fait matcher l'url
+## /archives
+## au controller Article et l'action archives
 
     @@@ ruby
     map.connect '/archives/', :controller => "articles",
@@ -41,7 +44,9 @@
 
 !SLIDE
 
-## fait matcher l'url /articles.rss au controller articles et l'action index
+## fait matcher l'url
+## /articles.rss
+##au controller articles et l'action index
 
     @@@ ruby
     map.rss 'articles.rss', :controller => 'articles',

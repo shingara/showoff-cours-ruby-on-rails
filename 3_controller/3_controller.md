@@ -14,12 +14,14 @@
 
 !SLIDE
 
-# fichier dans le dossier /app/controllers
+# fichier dans le dossier
+# /app/controllers
 
 !SLIDE
 
 # Hérite de ApplicationController
-## ApplicationController (app/controllers/application_controller.rb)
+## ApplicationController
+## (app/controllers/application_controller.rb)
 ## Est le fichier de base
 
 !SLIDE
@@ -38,3 +40,23 @@
 ## update
 ## create
 
+
+!SLIDE
+
+# Des Filtres
+
+!SLIDE
+
+# before_filter
+## execute du code avant l'action
+
+!SLIDE
+
+# after_filter
+## execute du code après l'action
+
+!SLIDE
+
+# respond_to
+## permet de changer de comportement
+## en fonction du mime-type

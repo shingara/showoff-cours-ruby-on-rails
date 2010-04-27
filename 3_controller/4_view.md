@@ -4,7 +4,7 @@
 
 !SLIDE
 
-#situé dans /app/views
+# située dans /app/views
 
 !SLIDE
 
